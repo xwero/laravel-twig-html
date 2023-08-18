@@ -1,0 +1,32 @@
+{
+    "name": "xwero/laravel-twig-html",
+    "description": "HTML builder twig extension",
+    "type": "package",
+    "autoload": {
+        "psr-4": {
+            "Xwero\\LaravelTwigHtml\\": "src/",
+            "Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "xwero"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=8.2",
+        "spatie/laravel-html": "^3.2",
+        "twig/twig": "^3.7"
+    },
+    "require-dev": {
+        "illuminate/http": "^10.19",
+        "spatie/ignition": "^1.9",
+        "pestphp/pest": "^2.15"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
