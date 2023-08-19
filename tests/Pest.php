@@ -43,3 +43,7 @@ function app($class) {
     $request = new \Illuminate\Http\Request();
     return new $class($request);
 }
+
+function route($name) {
+    return '/';
+}

@@ -9,7 +9,7 @@ it('displays empty text input', function() {
 it('displays text with name test', function() {
     $template = $this->twig->load('textWithName');
 
-    expect($template->render())->toBe('<input type="text" name="test" id="test" value>');
+    expect($template->render())->toBe('<input type="text" name="test" id="test">');
 })->group('text');
 
 it('displays text with name and value test', function() {
